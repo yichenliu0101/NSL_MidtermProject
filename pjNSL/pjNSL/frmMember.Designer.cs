@@ -85,6 +85,8 @@
 			this.pictureBox22 = new System.Windows.Forms.PictureBox();
 			this.pictureBox16 = new System.Windows.Forms.PictureBox();
 			this.pictureBox17 = new System.Windows.Forms.PictureBox();
+			this.pictureBox27 = new System.Windows.Forms.PictureBox();
+			this.label8 = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.panelTop)).BeginInit();
 			this.panelTop.Panel1.SuspendLayout();
 			this.panelTop.Panel2.SuspendLayout();
@@ -123,6 +125,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// panelTop
@@ -268,6 +271,8 @@
 			// 
 			// panelTitle.Panel1
 			// 
+			this.panelTitle.Panel1.Controls.Add(this.label8);
+			this.panelTitle.Panel1.Controls.Add(this.pictureBox27);
 			this.panelTitle.Panel1.Controls.Add(this.pictureBox9);
 			// 
 			// panelTitle.Panel2
@@ -770,6 +775,28 @@
 			this.pictureBox17.TabIndex = 1;
 			this.pictureBox17.TabStop = false;
 			// 
+			// pictureBox27
+			// 
+			this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
+			this.pictureBox27.Location = new System.Drawing.Point(793, 17);
+			this.pictureBox27.Name = "pictureBox27";
+			this.pictureBox27.Size = new System.Drawing.Size(97, 26);
+			this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.pictureBox27.TabIndex = 2;
+			this.pictureBox27.TabStop = false;
+			this.pictureBox27.Click += new System.EventHandler(this.pictureBoxAddAdmin_Click);
+			// 
+			// label8
+			// 
+			this.label8.AutoSize = true;
+			this.label8.Font = new System.Drawing.Font("新細明體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+			this.label8.Location = new System.Drawing.Point(830, 23);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(52, 15);
+			this.label8.TabIndex = 3;
+			this.label8.Text = "管理員";
+			this.label8.Click += new System.EventHandler(this.labAddAdmin_Click);
+			// 
 			// frmMember
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -796,6 +823,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.panelTitle.Panel1.ResumeLayout(false);
+			this.panelTitle.Panel1.PerformLayout();
 			this.panelTitle.Panel2.ResumeLayout(false);
 			this.panelTitle.Panel2.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.panelTitle)).EndInit();
@@ -817,6 +845,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
 			this.ResumeLayout(false);
 
         }
@@ -879,5 +908,7 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.TextBox textBox1;
 		private System.Windows.Forms.ComboBox comboBox1;
+		private System.Windows.Forms.Label label8;
+		private System.Windows.Forms.PictureBox pictureBox27;
 	}
 }

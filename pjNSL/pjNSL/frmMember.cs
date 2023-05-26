@@ -16,5 +16,17 @@ namespace pjNSL
         {
             InitializeComponent();
         }
-    }
+
+		private void pictureBoxAddAdmin_Click(object sender, EventArgs e)
+		{
+            var form = new FrmAddAdmin();
+            form.ShowDialog();
+		}
+
+		private void labAddAdmin_Click(object sender, EventArgs e)
+		{
+			var form = new FrmAddAdmin();
+			form.ShowDialog();
+		}
+	}
 }

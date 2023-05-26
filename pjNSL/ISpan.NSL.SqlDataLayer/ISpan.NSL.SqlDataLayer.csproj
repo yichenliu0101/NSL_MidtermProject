@@ -49,6 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dtos\" />
+    <Folder Include="EFModels\" />
+    <Folder Include="Interface\" />
     <Folder Include="Repository\" />
     <Folder Include="Services\" />
   </ItemGroup>
