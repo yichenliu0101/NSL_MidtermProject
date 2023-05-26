@@ -191,5 +191,11 @@
     <Folder Include="Images\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ISpan.NSL.SqlDataLayer\ISpan.NSL.SqlDataLayer.csproj">
+      <Project>{6A6F94FA-A122-4552-A426-52257BA75E53}</Project>
+      <Name>ISpan.NSL.SqlDataLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

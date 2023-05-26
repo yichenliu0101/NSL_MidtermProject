@@ -103,3 +103,6 @@ C:\Users\User\Documents\NSL_MidtermProject\pjNSL\pjNSL\obj\Debug\pjNSL.csproj.Co
 C:\Users\User\Documents\NSL_MidtermProject\pjNSL\pjNSL\obj\Debug\pjNSL.exe
 C:\Users\User\Documents\NSL_MidtermProject\pjNSL\pjNSL\obj\Debug\pjNSL.pdb
 C:\Users\User\Documents\NSL_MidtermProject\pjNSL\pjNSL\obj\Debug\pjNSL.FrmAddAdmin.resources
+C:\Users\User\Documents\NSL_MidtermProject\pjNSL\pjNSL\bin\Debug\ISpan.NSL.SqlDataLayer.dll
+C:\Users\User\Documents\NSL_MidtermProject\pjNSL\pjNSL\bin\Debug\ISpan.NSL.SqlDataLayer.pdb
+C:\Users\User\Documents\NSL_MidtermProject\pjNSL\pjNSL\obj\Debug\pjNSL.csproj.CopyComplete
