@@ -21,5 +21,12 @@ namespace pjNSL
         {
 
         }
-    }
+
+		private void picCoupon_Click(object sender, EventArgs e)
+		{
+            var frm=new frmPush();
+			frm.Owner = this;
+			frm.ShowDialog();
+		}
+	}
 }

@@ -83,6 +83,7 @@
 			this.pictureBox22 = new System.Windows.Forms.PictureBox();
 			this.pictureBox16 = new System.Windows.Forms.PictureBox();
 			this.pictureBox17 = new System.Windows.Forms.PictureBox();
+			this.button1 = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
@@ -316,6 +317,7 @@
 			// 
 			// panelTitle.Panel1
 			// 
+			this.panelTitle.Panel1.Controls.Add(this.button1);
 			this.panelTitle.Panel1.Controls.Add(this.pictureBox9);
 			// 
 			// panelTitle.Panel2
@@ -741,6 +743,16 @@
 			this.pictureBox17.TabIndex = 1;
 			this.pictureBox17.TabStop = false;
 			// 
+			// button1
+			// 
+			this.button1.Location = new System.Drawing.Point(576, 17);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(75, 23);
+			this.button1.TabIndex = 2;
+			this.button1.Text = "button1";
+			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.button1_Click);
+			// 
 			// frmTeacher
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -848,5 +860,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label9;
+		private System.Windows.Forms.Button button1;
 	}
 }

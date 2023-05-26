@@ -16,5 +16,11 @@ namespace pjNSL
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("sDDD");
+            Console.ReadLine();
+        }
     }
 }
